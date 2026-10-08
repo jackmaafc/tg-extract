@@ -1,0 +1,31 @@
+# Credentials and Environment
+.env
+.tg_env
+*.env
+.env.local
+
+# Telegram Session Data
+tg_session
+tg_session-journal
+*.session
+*.session-journal
+
+# Downloaded Media
+tg_videos/
+tg_downloads/
+*.part
+
+# Python Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# macOS
+.DS_Store
